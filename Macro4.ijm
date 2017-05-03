@@ -13,7 +13,7 @@ print("Number of cells: "+NumberOfCells);
 Feature = newArray(NumberOfCells);
 
 for (cell = 0; cell < NumberOfCells; cell++) {
-	value = getResult("AR",cell); 
+	value = getResult("Area",cell); 
 	Feature[cell] = value;
 }
 
